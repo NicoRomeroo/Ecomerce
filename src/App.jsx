@@ -1,9 +1,12 @@
+import NavBar from "./Components/NavBar/NavBar"
+import ItemListContainer from "./Components/ItemListContainer/ItemListContainer"
 function App() {
 
   return (
-    <>
-      <h1>Vite + React</h1>
-    </>
+    <div>
+      <NavBar />
+      <ItemListContainer greeting={'Bienvenidos'}/>
+    </div>
   )
 }
 
